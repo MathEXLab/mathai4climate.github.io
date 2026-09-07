@@ -42,7 +42,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!--theme.css: this workshop's brand layer-->
-    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/theme.css?v=3">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
@@ -404,220 +404,194 @@
                 <div class="space" style="height: 40px;"></div>
 
                 <h4>Detailed program (Draft)</h4>
-                <p class="dates-note">Session-by-session breakdown for each day.</p>
-                <div class="accordion cfs-accordion" id="scheduleAccordion">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#day-1" aria-expanded="true" aria-controls="day-1">
-                                Day 1 · Mon, Nov 2
-                            </button>
-                        </h2>
-                        <div id="day-1" class="accordion-collapse collapse show" data-bs-parent="#scheduleAccordion">
-                            <div class="accordion-body">
-                                <p><b>10:00–11:00</b> Arrival and networking</p>
-                                <p><b>11:00–12:00</b> Opening ceremony</p>
-                                <p><b>12:00–14:00</b> Lunch break</p>
-                                <p><b>14:00–15:00</b> Slot 4 — Michael Ghil</p>
-                                <p><b>15:00–15:15</b> Tea break</p>
-                                <p><b>15:15–16:15</b> Slot 5 — Ulrike Feudel</p>
-                                <p><b>16:15–16:30</b> Tea break</p>
-                                <p><b>16:30–17:30</b> Slot 6 — Cristina Urbani</p>
+                <p class="dates-note">Session-by-session breakdown for each day, laid out Monday–Friday across the two program weeks.</p>
+                <div class="week-schedule">
+                    <div class="week-block">
+                        <div class="week-block-label"><span>Week 1</span>Nov 2 – Nov 6</div>
+                        <div class="week-grid">
+                            <div class="day-card">
+                                <div class="day-card-header">
+                                    <span class="day-card-num">Day 1</span>
+                                    <span class="day-card-date">Mon, Nov 2</span>
+                                </div>
+                                <ul class="day-card-list">
+                                    <li class="session-row"><span class="session-time">10:00–11:00</span><span class="session-title">Arrival and networking</span></li>
+                                    <li class="session-row"><span class="session-time">11:00–12:00</span><span class="session-title">Opening ceremony</span></li>
+                                    <li class="session-row is-break"><span class="session-time">12:00–14:00</span><span class="session-title">Lunch break</span></li>
+                                    <li class="session-row"><span class="session-time">14:00–15:00</span><span class="session-title">Slot 4 — Michael Ghil</span></li>
+                                    <li class="session-row is-break"><span class="session-time">15:00–15:15</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">15:15–16:15</span><span class="session-title">Slot 5 — Ulrike Feudel</span></li>
+                                    <li class="session-row is-break"><span class="session-time">16:15–16:30</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">16:30–17:30</span><span class="session-title">Slot 6 — Cristina Urbani</span></li>
+                                </ul>
+                            </div>
+                            <div class="day-card">
+                                <div class="day-card-header">
+                                    <span class="day-card-num">Day 2</span>
+                                    <span class="day-card-date">Tue, Nov 3</span>
+                                </div>
+                                <ul class="day-card-list">
+                                    <li class="session-row is-keynote"><span class="session-time">09:30–10:30</span><span class="session-title">Slot 1 (Keynote) — Simon See</span></li>
+                                    <li class="session-row is-break"><span class="session-time">10:30–11:00</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">11:00–11:30</span><span class="session-title">Slot 2 (Short talks) - Yuxuan Yang</span></li>
+                                    <li class="session-row"><span class="session-time">11:30–12:00</span><span class="session-title">Slot 3 (Short talks) - TBC</span></li>
+                                    <li class="session-row is-break"><span class="session-time">12:00–14:00</span><span class="session-title">Lunch break</span></li>
+                                    <li class="session-row"><span class="session-time">14:00–15:00</span><span class="session-title">Slot 4 — Melinda Galfi</span></li>
+                                    <li class="session-row is-break"><span class="session-time">15:00–15:15</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">15:15–16:15</span><span class="session-title">Slot 5 — Stefano Galatolo</span></li>
+                                    <li class="session-row is-break"><span class="session-time">16:15–16:30</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">16:30–17:30</span><span class="session-title">Slot 6 — Michael Wehner</span></li>
+                                </ul>
+                            </div>
+                            <div class="day-card">
+                                <div class="day-card-header">
+                                    <span class="day-card-num">Day 3</span>
+                                    <span class="day-card-date">Wed, Nov 4</span>
+                                </div>
+                                <ul class="day-card-list">
+                                    <li class="session-row is-keynote"><span class="session-time">09:30–10:30</span><span class="session-title">Slot 1 (Keynote) — Gabriele Messori</span></li>
+                                    <li class="session-row is-break"><span class="session-time">10:30–11:00</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">11:00–11:30</span><span class="session-title">Slot 2 (Short talks) - Chenyu Dong</span></li>
+                                    <li class="session-row"><span class="session-time">11:30–12:00</span><span class="session-title">Slot 3 (Short talks) - TBC</span></li>
+                                    <li class="session-row is-break"><span class="session-time">12:00–14:00</span><span class="session-title">Lunch break</span></li>
+                                    <li class="session-row"><span class="session-time">14:00–15:00</span><span class="session-title">Slot 4 — Jing Fang</span></li>
+                                    <li class="session-row is-break"><span class="session-time">15:00–15:15</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">15:15–16:15</span><span class="session-title">Slot 5 — Sandro Vaienti</span></li>
+                                    <li class="session-row is-break"><span class="session-time">16:15–16:30</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">16:30–17:30</span><span class="session-title">Slot 6 — Veronika Eyring (virtual)</span></li>
+                                </ul>
+                            </div>
+                            <div class="day-card">
+                                <div class="day-card-header">
+                                    <span class="day-card-num">Day 4</span>
+                                    <span class="day-card-date">Thu, Nov 5</span>
+                                </div>
+                                <ul class="day-card-list">
+                                    <li class="session-row is-keynote"><span class="session-time">09:30–10:30</span><span class="session-title">Slot 1 (Keynote) — Gilbert Brunet</span></li>
+                                    <li class="session-row is-break"><span class="session-time">10:30–11:00</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">11:00–11:30</span><span class="session-title">Slot 2 (Short talks) - Emma Andrews</span></li>
+                                    <li class="session-row"><span class="session-time">11:30–12:00</span><span class="session-title">Slot 3 (Short talks) - TBC</span></li>
+                                    <li class="session-row is-break"><span class="session-time">12:00–14:00</span><span class="session-title">Lunch break</span></li>
+                                    <li class="session-row"><span class="session-time">14:00–15:00</span><span class="session-title">Slot 4 — Qianxiao Li</span></li>
+                                    <li class="session-row is-break"><span class="session-time">15:00–15:15</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">15:15–16:15</span><span class="session-title">Slot 5 — Yang Liu</span></li>
+                                    <li class="session-row is-break"><span class="session-time">16:15–16:30</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">16:30–17:30</span><span class="session-title">Slot 6 — Tim Palmer (virtual)</span></li>
+                                </ul>
+                            </div>
+                            <div class="day-card">
+                                <div class="day-card-header">
+                                    <span class="day-card-num">Day 5</span>
+                                    <span class="day-card-date">Fri, Nov 6</span>
+                                </div>
+                                <ul class="day-card-list">
+                                    <li class="session-row is-keynote"><span class="session-time">09:30–10:30</span><span class="session-title">Slot 1 (Keynote) — Dale Barker</span></li>
+                                    <li class="session-row is-break"><span class="session-time">10:30–11:00</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">11:00–11:30</span><span class="session-title">Slot 2 (Short talks) - TBC</span></li>
+                                    <li class="session-row"><span class="session-time">11:30–12:00</span><span class="session-title">Slot 3 (Short talks) - TBC</span></li>
+                                    <li class="session-row is-break"><span class="session-time">12:00–14:00</span><span class="session-title">Lunch break</span></li>
+                                    <li class="session-row"><span class="session-time">14:00–15:00</span><span class="session-title">Slot 4 — Gianmarco Mengaldo</span></li>
+                                    <li class="session-row is-break"><span class="session-time">15:00–15:15</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">15:15–16:15</span><span class="session-title">Slot 5 — Panel Session</span></li>
+                                    <li class="session-row is-break"><span class="session-time">16:15–16:30</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">16:30–17:30</span><span class="session-title">Slot 6 — Early finish</span></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
 
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day-2" aria-expanded="false" aria-controls="day-2">
-                                Day 2 · Tue, Nov 3
-                            </button>
-                        </h2>
-                        <div id="day-2" class="accordion-collapse collapse" data-bs-parent="#scheduleAccordion">
-                            <div class="accordion-body">
-                                <p><b>09:30–10:30</b> Slot 1 (Keynote) — Simon See</p>
-                                <p><b>10:30–11:00</b> Tea break</p>
-                                <p><b>11:00–11:30</b> Slot 2 (Short talks) - Yuxuan Yang</p>
-                                <p><b>11:30–12:00</b> Slot 3 (Short talks) - TBC </p>
-                                <p><b>12:00–14:00</b> Lunch break</p>
-                                <p><b>14:00–15:00</b> Slot 4 — Melinda Galfi</p>
-                                <p><b>15:00–15:15</b> Tea break</p>
-                                <p><b>15:15–16:15</b> Slot 5 — Stefano Galatolo </p>
-                                <p><b>16:15–16:30</b> Tea break</p>
-                                <p><b>16:30–17:30</b> Slot 6 — Michael Wehner</p>
+                    <div class="week-block">
+                        <div class="week-block-label"><span>Week 2</span>Nov 9 – Nov 13</div>
+                        <div class="week-grid">
+                            <div class="day-card day-card-holiday">
+                                <div class="day-card-header">
+                                    <span class="day-card-num">Day 6</span>
+                                    <span class="day-card-date">Mon, Nov 9</span>
+                                </div>
+                                <div class="holiday-badge"><em>Deepavali public holiday</em> — <strong>no sessions</strong></div>
+                                <ul class="day-card-list">
+                                    <li class="session-row"><span class="session-time">09:30–12:00</span><span class="session-title">Optional: walk around a nature reserve, followed by lunch</span></li>
+                                </ul>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day-3" aria-expanded="false" aria-controls="day-3">
-                                Day 3 · Wed, Nov 4
-                            </button>
-                        </h2>
-                        <div id="day-3" class="accordion-collapse collapse" data-bs-parent="#scheduleAccordion">
-                            <div class="accordion-body">
-                                <p><b>09:30–10:30</b> Slot 1 (Keynote) — Gabriele Messori</p>
-                                <p><b>10:30–11:00</b> Tea break</p>
-                                <p><b>11:00–11:30</b> Slot 2 (Short talks) - Chenyu Dong</p>
-                                <p><b>11:30–12:00</b> Slot 3 (Short talks) - TBC </p>
-                                <p><b>12:00–14:00</b> Lunch break</p>
-                                <p><b>14:00–15:00</b> Slot 4 — Jing Fang</p>
-                                <p><b>15:00–15:15</b> Tea break</p>
-                                <p><b>15:15–16:15</b> Slot 5 — Sandro Vaienti</p>
-                                <p><b>16:15–16:30</b> Tea break</p>
-                                <p><b>16:30–17:30</b> Slot 6 — Veronika Eyring (virtual)</p>
+                            <div class="day-card">
+                                <div class="day-card-header">
+                                    <span class="day-card-num">Day 7</span>
+                                    <span class="day-card-date">Tue, Nov 10</span>
+                                </div>
+                                <ul class="day-card-list">
+                                    <li class="session-row"><span class="session-time">09:30–10:30</span><span class="session-title">Slot 1 — George Gottwald</span></li>
+                                    <li class="session-row is-break"><span class="session-time">10:30–11:00</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">11:00–12:00</span><span class="session-title">Slot 2 (Short talks) - TBC</span></li>
+                                    <li class="session-row"><span class="session-time">11:30–12:00</span><span class="session-title">Slot 3 (Short talks) - TBC</span></li>
+                                    <li class="session-row is-break"><span class="session-time">12:00–14:00</span><span class="session-title">Lunch break</span></li>
+                                    <li class="session-row"><span class="session-time">14:00–15:00</span><span class="session-title">Slot 4 — Gary Froyland</span></li>
+                                    <li class="session-row is-break"><span class="session-time">15:00–15:15</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">15:15–16:15</span><span class="session-title">Slot 5 — Denise Sciamarella</span></li>
+                                    <li class="session-row is-break"><span class="session-time">16:15–16:30</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">16:30–17:30</span><span class="session-title">Slot 6 — Jorge Freitas</span></li>
+                                    <li class="session-row is-social"><span class="session-time">19:00–21:00</span><span class="session-title">Workshop Dinner</span></li>
+                                </ul>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day-4" aria-expanded="false" aria-controls="day-4">
-                                Day 4 · Thu, Nov 5
-                            </button>
-                        </h2>
-                        <div id="day-4" class="accordion-collapse collapse" data-bs-parent="#scheduleAccordion">
-                            <div class="accordion-body">
-                                <p><b>09:30–10:30</b> Slot 1 (Keynote) — Gilbert Brunet</p>
-                                <p><b>10:30–11:00</b> Tea break</p>
-                                <p><b>11:00–11:30</b> Slot 2 (Short talks) - Emma Andrews </p>
-                                <p><b>11:30–12:00</b> Slot 3 (Short talks) - TBC </p>
-                                <p><b>12:00–14:00</b> Lunch break</p>
-                                <p><b>14:00–15:00</b> Slot 4 — Qianxiao Li</p>
-                                <p><b>15:00–15:15</b> Tea break</p>
-                                <p><b>15:15–16:15</b> Slot 5 — Yang Liu</p>
-                                <p><b>16:15–16:30</b> Tea break</p>
-                                <p><b>16:30–17:30</b> Slot 6 — Tim Palmer (virtual)</p>
+                            <div class="day-card">
+                                <div class="day-card-header">
+                                    <span class="day-card-num">Day 8</span>
+                                    <span class="day-card-date">Wed, Nov 11</span>
+                                </div>
+                                <ul class="day-card-list">
+                                    <li class="session-row is-keynote"><span class="session-time">09:30–10:30</span><span class="session-title">Slot 1 (Keynote) — Romit Maulik</span></li>
+                                    <li class="session-row is-break"><span class="session-time">10:30–11:00</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">11:00–11:30</span><span class="session-title">Slot 2 (Short talks) - TBC</span></li>
+                                    <li class="session-row"><span class="session-time">11:30–12:00</span><span class="session-title">Slot 3 (Short talks) - TBC</span></li>
+                                    <li class="session-row is-break"><span class="session-time">12:00–14:00</span><span class="session-title">Lunch break</span></li>
+                                    <li class="session-row"><span class="session-time">14:00–15:00</span><span class="session-title">Slot 4 — Albert Carrassi</span></li>
+                                    <li class="session-row is-break"><span class="session-time">15:00–15:15</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">15:15–16:15</span><span class="session-title">Slot 5 — Ana-Maria Moreira Freitas</span></li>
+                                    <li class="session-row is-break"><span class="session-time">16:15–16:30</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">16:30–17:30</span><span class="session-title">Slot 6 — Marc Bouquet</span></li>
+                                </ul>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day-5" aria-expanded="false" aria-controls="day-5">
-                                Day 5 · Fri, Nov 6
-                            </button>
-                        </h2>
-                        <div id="day-5" class="accordion-collapse collapse" data-bs-parent="#scheduleAccordion">
-                            <div class="accordion-body">
-                                <p><b>09:30–10:30</b> Slot 1 (Keynote) — Dale Barker</p>
-                                <p><b>10:30–11:00</b> Tea break</p>
-                                <p><b>11:00–11:30</b> Slot 2 (Short talks) - TBC </p>
-                                <p><b>11:30–12:00</b> Slot 3 (Short talks) - TBC </p>
-                                <p><b>12:00–14:00</b> Lunch break</p>
-                                <p><b>14:00–15:00</b> Slot 4 — Gianmarco Mengaldo</p>
-                                <p><b>15:00–15:15</b> Tea break</p>
-                                <p><b>15:15–16:15</b> Slot 5 — Panel Session</p>
-                                <p><b>16:15–16:30</b> Tea break</p>
-                                <p><b>16:30–17:30</b> Slot 6 — Early finish </p>
+                            <div class="day-card">
+                                <div class="day-card-header">
+                                    <span class="day-card-num">Day 9</span>
+                                    <span class="day-card-date">Thu, Nov 12</span>
+                                </div>
+                                <div class="day-card-theme">Impact on Infrastructure</div>
+                                <ul class="day-card-list">
+                                    <li class="session-row"><span class="session-time">09:30–10:30</span><span class="session-title">Slot 1 — Paul Tan</span></li>
+                                    <li class="session-row is-break"><span class="session-time">10:30–11:00</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">11:00–12:00</span><span class="session-title">Slot 2 Q&amp;A Session</span></li>
+                                    <li class="session-row is-break"><span class="session-time">12:00–14:00</span><span class="session-title">Lunch break</span></li>
+                                    <li class="session-row"><span class="session-time">14:00–15:00</span><span class="session-title">Slot 4 — Xiang Shili</span></li>
+                                    <li class="session-row is-break"><span class="session-time">15:00–15:15</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">15:15–16:15</span><span class="session-title">Slot 5 — Vinh Tan Nguyen</span></li>
+                                    <li class="session-row is-break"><span class="session-time">16:15–16:30</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">16:30–17:30</span><span class="session-title">Slot 6 — Ronald Chan</span></li>
+                                </ul>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day-6" aria-expanded="false" aria-controls="day-6">
-                                Day 6 · Mon, Nov 9 — Deepvali Public Holiday (no sessions)
-                            </button>
-                        </h2>
-                        <div id="day-6" class="accordion-collapse collapse" data-bs-parent="#scheduleAccordion">
-                            <div class="accordion-body">
-                                <p><b>09:30–12:00</b> Optional, walk around a nature reserve followed by lunch</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day-7" aria-expanded="false" aria-controls="day-7">
-                                Day 7 · Tue, Nov 10
-                            </button>
-                        </h2>
-                        <div id="day-7" class="accordion-collapse collapse" data-bs-parent="#scheduleAccordion">
-                            <div class="accordion-body">
-                                <p><b>09:30–10:30</b> Slot 1 — George Gottwald</p>
-                                <p><b>10:30–11:00</b> Tea break</p>
-                                <p><b>11:00–12:00</b> Slot 2 (Short talks) - TBC</p>
-                                <p><b>11:30–12:00</b> Slot 3 (Short talks) - TBC </p>
-                                <p><b>12:00–14:00</b> Lunch break</p>
-                                <p><b>14:00–15:00</b> Slot 4 — Gary Froyland</p>
-                                <p><b>15:00–15:15</b> Tea break</p>
-                                <p><b>15:15–16:15</b> Slot 5 — Denise Sciamarella</p>
-                                <p><b>16:15–16:30</b> Tea break</p>
-                                <p><b>16:30–17:30</b> Slot 6 — Jorge Freitas</p>
-                                <p><b>19:00–21:00</b> Workshop Dinner</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day-8" aria-expanded="false" aria-controls="day-8">
-                                Day 8 · Wed, Nov 11
-                            </button>
-                        </h2>
-                        <div id="day-8" class="accordion-collapse collapse" data-bs-parent="#scheduleAccordion">
-                            <div class="accordion-body">
-                                <p><b>09:30–10:30</b> Slot 1 (Keynote) — Romit Maulik</p>
-                                <p><b>10:30–11:00</b> Tea break</p>
-                                <p><b>11:00–11:30</b> Slot 2 (Short talks) - TBC </p>
-                                <p><b>11:30–12:00</b> Slot 3 (Short talks) - TBC</p>
-                                <p><b>12:00–14:00</b> Lunch break</p>
-                                <p><b>14:00–15:00</b> Slot 4 — Albert Carrassi</p>
-                                <p><b>15:00–15:15</b> Tea break</p>
-                                <p><b>15:15–16:15</b> Slot 5 — Ana-Maria Moreira Freitas</p>
-                                <p><b>16:15–16:30</b> Tea break</p>
-                                <p><b>16:30–17:30</b> Slot 6 — Marc Bouquet</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day-9" aria-expanded="false" aria-controls="day-9">
-                                Day 9 · Thu, Nov 12 - Impact on Infrastructure
-                            </button>
-                        </h2>
-                        <div id="day-9" class="accordion-collapse collapse" data-bs-parent="#scheduleAccordion">
-                            <div class="accordion-body">
-                                <p><b>09:30–10:30</b> Slot 1  — Paul Tan</p>
-                                <p><b>10:30–11:00</b> Tea break</p>
-                                <p><b>11:00–12:00</b> Slot 2 Q&A Session </p>
-                                <p><b>12:00–14:00</b> Lunch break</p>
-                                <p><b>14:00–15:00</b> Slot 4 — Xiang Shili</p>
-                                <p><b>15:00–15:15</b> Tea break</p>
-                                <p><b>15:15–16:15</b> Slot 5 — Vinh Tan Nguyen</p>
-                                <p><b>16:15–16:30</b> Tea break</p>
-                                <p><b>16:30–17:30</b> Slot 6 — Ronald Chan</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day-10" aria-expanded="false" aria-controls="day-10">
-                                Day 10 · Fri, Nov 13
-                            </button>
-                        </h2>
-                        <div id="day-10" class="accordion-collapse collapse" data-bs-parent="#scheduleAccordion">
-                            <div class="accordion-body">
-                                <p><b>09:30–10:30</b> Slot 1 (Keynote) — Steve Brunton (Tentative)</p>
-                                <p><b>10:30–11:00</b> Tea break</p>
-                                <p><b>11:00–12:00</b> Networking session</p>
-                                <p><b>12:00–14:00</b> Lunch break</p>
-                                <p><b>14:00–15:00</b> Slot 4 — Pascal Yiou</p>
-                                <p><b>15:00–15:15</b> Tea break</p>
-                                <p><b>15:15–16:15</b> Slot 5 — Fabrizio Falasca</p>
-                                <p><b>16:15–16:30</b> Tea break</p>
-                                <p><b>16:30–17:30</b> Slot 6 — Final Remarks</p>
+                            <div class="day-card">
+                                <div class="day-card-header">
+                                    <span class="day-card-num">Day 10</span>
+                                    <span class="day-card-date">Fri, Nov 13</span>
+                                </div>
+                                <ul class="day-card-list">
+                                    <li class="session-row is-keynote"><span class="session-time">09:30–10:30</span><span class="session-title">Slot 1 (Keynote) — Steve Brunton (Tentative)</span></li>
+                                    <li class="session-row is-break"><span class="session-time">10:30–11:00</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">11:00–12:00</span><span class="session-title">Networking session</span></li>
+                                    <li class="session-row is-break"><span class="session-time">12:00–14:00</span><span class="session-title">Lunch break</span></li>
+                                    <li class="session-row"><span class="session-time">14:00–15:00</span><span class="session-title">Slot 4 — Pascal Yiou</span></li>
+                                    <li class="session-row is-break"><span class="session-time">15:00–15:15</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">15:15–16:15</span><span class="session-title">Slot 5 — Fabrizio Falasca</span></li>
+                                    <li class="session-row is-break"><span class="session-time">16:15–16:30</span><span class="session-title">Tea break</span></li>
+                                    <li class="session-row"><span class="session-time">16:30–17:30</span><span class="session-title">Slot 6 — Final Remarks</span></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
-    <!-- schedule end
+    </section>
+    <!-- schedule end -->
 
     <!-- Modal for Speakers -->
     <div id="modal-hasselmann" class="modal fade" tabindex="-1" aria-labelledby="modal-speaker-label" aria-hidden="true">
