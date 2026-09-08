@@ -667,17 +667,16 @@ section[id] {
 }
 
 .holiday-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
+    display: inline-block;
     font-family: var(--font-body);
     font-size: 14px;
     font-weight: 500;
     font-style: italic;
+    line-height: 1.4;
     color: var(--accent-strong);
     background: var(--accent-tint);
     padding: 6px 14px;
-    border-radius: 999px;
+    border-radius: 16px;
 }
 
 .holiday-badge strong {
