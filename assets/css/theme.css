@@ -657,6 +657,196 @@ section[id] {
     color: var(--ink-soft);
 }
 
+.schedule-holiday-row td {
+    background: var(--surface-sunken) !important;
+}
+
+.schedule-holiday-row td:first-child {
+    font-weight: 600;
+    color: var(--ink);
+}
+
+.holiday-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--accent-strong);
+    background: var(--accent-tint);
+    padding: 6px 14px;
+    border-radius: 999px;
+}
+
+.holiday-badge strong {
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* -----------------------------------------------------
+   Detailed program — weekly card grid
+------------------------------------------------------ */
+.week-schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.week-block-label {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink-soft);
+    margin-bottom: 14px;
+}
+
+.week-block-label span {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: #fff;
+    background: var(--accent);
+    padding: 5px 12px;
+    border-radius: 999px;
+}
+
+.week-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(210px, 1fr));
+    gap: 16px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+}
+
+.day-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.day-card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+}
+
+.day-card-num {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+}
+
+.day-card-date {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--ink);
+}
+
+.day-card-theme {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent-strong);
+    margin: -6px 0 12px;
+}
+
+.day-card-holiday .holiday-badge {
+    margin: -2px 0 12px;
+}
+
+.day-card-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.session-row {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 10px;
+    border-radius: var(--radius-sm);
+}
+
+.session-time {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.02em;
+    color: var(--ink-soft);
+    font-variant-numeric: tabular-nums;
+}
+
+.session-title {
+    font-size: 13px;
+    line-height: 1.4;
+    color: var(--ink);
+}
+
+.session-row.is-break {
+    padding: 4px 10px;
+}
+
+.session-row.is-break .session-time,
+.session-row.is-break .session-title {
+    color: var(--ink-soft);
+    font-style: italic;
+    font-weight: 400;
+}
+
+.session-row.is-keynote,
+.session-row.is-talk {
+    background: var(--accent-tint);
+}
+
+.session-row.is-keynote .session-time,
+.session-row.is-talk .session-time {
+    color: var(--accent-strong);
+}
+
+.session-row.is-keynote .session-title,
+.session-row.is-talk .session-title {
+    font-weight: 700;
+    color: var(--accent-strong);
+}
+
+.session-row.is-social {
+    background: var(--signal-tint);
+}
+
+.session-row.is-social .session-time {
+    color: var(--signal-text);
+}
+
+.session-row.is-social .session-title {
+    font-weight: 600;
+    color: var(--signal-text);
+}
+
+@media (max-width: 1400px) {
+    .week-grid { grid-template-columns: repeat(5, 240px); }
+}
+
 .schedule-tag {
     display: inline-block;
     font-size: 11px;
