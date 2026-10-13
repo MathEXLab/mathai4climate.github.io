@@ -549,14 +549,15 @@ TBC
         {
           day: "Day 1", date: "Mon, Nov 2",
           sessions: [
-            { time: "10:00–11:00", label: "Arrival and networking" },
-            { time: "11:00–12:00", label: "Opening ceremony" },
+            { time: "09:30–10:30", label: "Arrival and networking" },
+            { time: "10:30–11:00", label: "Opening ceremony" },
+            { time: "11:00–12:00", type: "Keynote",      speaker: "ghil" },
             { time: "12:00–14:00", break: "Lunch break" },
-            { time: "14:00–15:00", type: "Keynote",      speaker: "ghil" },
+            { time: "14:00–15:00", type: "Keynote",      speaker: "feudel" },
             { time: "15:00–15:15", break: "Tea break" },
-            { time: "15:15–16:15", type: "Keynote",      speaker: "feudel" },
-            { time: "16:15–16:30", break: "Tea break" },
-            { time: "16:30–17:30", type: "Keynote",      speaker: "urbani" }
+            { time: "15:15–16:15", type: "Keynote",      speaker: "urbani" },
+            { time: "16:15–16:30", break: "Early finish" },
+            // { time: "16:30–17:30", type: "Keynote",      speaker: "urbani" }
           ]
         },
         {
@@ -571,8 +572,8 @@ TBC
             { time: "14:00–15:00", type: "Keynote",      speaker: "galfi" },
             { time: "15:00–15:15", break: "Tea break" },
             { time: "15:15–16:15", type: "Invited talk",      speaker: "ortega" },
-            { time: "16:15–16:30", break: "Tea break" },
-            { time: "16:30–17:30", type: "",      speaker: null }
+            // { time: "16:15–16:30", break: "Tea break" },
+            // { time: "16:30–17:30", type: "",      speaker: null }
           ]
         },
         {
@@ -587,8 +588,8 @@ TBC
             { time: "14:00–15:00", type: "Keynote",      speaker: "fan" },
             { time: "15:00–15:15", break: "Tea break" },
             { time: "15:15–16:15", type: "Keynote",      speaker: "vaienti" },
-            { time: "16:15–16:30", break: "Tea break" },
-            { time: "16:30–17:30", type: "",             speaker: null }
+            // { time: "16:15–16:30", break: "Tea break" },
+            // { time: "16:30–17:30", type: "",             speaker: null }
           ]
         },
         {
@@ -610,10 +611,10 @@ TBC
           sessions: [
             { time: "09:30–10:30", type: "Keynote",      speaker: "mengaldo" },
             { time: "10:30–11:00", break: "Tea break" },
-            { time: "11:00–12:00", type: "Invited talk", speaker: null },
-            { time: "12:00–14:00", break: "Lunch break" },
-            { time: "14:00–15:00", type: "Invited talk", speaker: "qin" },
-            { time: "15:00",       break: "Early finish" }
+            { time: "11:00–12:00", type: "Invited talk", speaker: 'qin' },
+            // { time: "12:00–14:00", break: "Lunch break" },
+            // { time: "14:00–15:00", type: "Invited talk", speaker: "qin" },
+            { time: "12:00",       break: "Early finish" }
           ]
         }
       ]
@@ -625,7 +626,7 @@ TBC
           day: "Day 6", date: "Mon, Nov 9",
           holiday: "Deepavali public holiday",
           sessions: [
-            { time: "09:30–12:00", label: "Optional: walk around a nature reserve, followed by lunch" }
+            { time: "09:30–12:00", label: "Suggested activities: walk around a nature reserve, Singapore zoo, hawker center lunch" }
           ]
         },
         {
