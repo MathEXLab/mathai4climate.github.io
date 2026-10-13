@@ -495,10 +495,16 @@ TBC
 
     tan: {
       name: "Paul Tan",
-      affiliation: "",
-      title: "Predicting Convection, Protecting Capacity: AI-Enabled Weather Intelligence for Asia-Pacific Aviation",
+      affiliation: "International Centre For Aviation Innovation (ICAI), Singapore",
+      title: "Turning weather uncertainty into better airport and airspace decisions",
       abstract: `
-TBC
+Asia-Pacific aviation is entering a period where traffic growth and tightly coupled operations will make weather uncertainty costly. Passenger demand has moved above 2019 levels and is projected to reach 4.1 billion journeys by 2044. Yet airport capacity is not determined by the runway alone. It depends on the most constrained link across airspace, approach, runway, taxiway, apron, gates and turnaround. A convective or lightning event can therefore create holding, diversions, stopped ramp work, gate conflicts and a recovery tail that lasts far longer than the weather itself.
+
+Singapore illustrates both the urgency and the opportunity. Lightning is a routine operational risk, occurring on nearly half the days of the year, while perimeter-based alerts and fixed cessation timers can impose broad restrictions without representing how exposure changes across space and time. Existing initiatives already move beyond general weather products toward operational impact, but a gap remains: forecasts do not translate uncertainty into usable infrastructure, sustainable movement rate, total cost and a defensible action.
+
+The proposed shift is from forecasting the weather to forecasting the airport. This requires uncertainty to be carried through five linked questions: what the weather will do, what infrastructure remains usable, how much traffic can be handled, what the consequences will cost and which action is most robust. The challenge is compounded by sparse observations over surrounding seas, where storms often form, and by the limits of satellite imagery in resolving the lower atmosphere and internal storm state. Better decisions will depend on integrating existing observations, targeted new sensing, operational data and models that preserve multiple plausible outcomes rather than collapsing them into one confident answer.
+
+Success must be measured in operational terms: useful warning time, calibrated uncertainty, fewer wasted stop-minutes, narrower restrictions, reduced diversions and faster recovery. Delivering this capability will require a tested weather-to-capacity model, event-level decision records, safe replay and shadow-testing environments, and one shared picture across airports, airlines, handlers and air traffic control. The invitation to researchers and industry is practical: see disruption earlier, quantify its consequences better and test responses before the system loses flexibility, while preserving human authority and safety.
 `
     },
 
