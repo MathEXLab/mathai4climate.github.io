@@ -570,9 +570,9 @@ TBC
             { time: "12:10–14:00", break: "Lunch break" },
             { time: "14:00–15:00", type: "Keynote",      speaker: "galfi" },
             { time: "15:00–15:15", break: "Tea break" },
-            { time: "15:15–16:15", type: "Keynote",      speaker: "galatolo" },
+            { time: "15:15–16:15", type: "Invited talk",      speaker: "ortega" },
             { time: "16:15–16:30", break: "Tea break" },
-            { time: "16:30–17:30", type: "Keynote",      speaker: "ortega" }
+            { time: "16:30–17:30", type: "",      speaker: null }
           ]
         },
         {
@@ -679,7 +679,7 @@ TBC
           sessions: [
             { time: "09:30–10:30", type: "Keynote",      speaker: "maulik" },
             { time: "10:30–11:00", break: "Tea break" },
-            { time: "11:00–12:00", type: "",             speaker: "faranda" },
+            { time: "11:00–12:00", type: "Keynote",             speaker: "faranda" },
             { time: "12:00–14:00", break: "Lunch break" },
             { time: "14:00",       break: "Early finish" }
           ]
