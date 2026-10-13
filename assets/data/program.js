@@ -642,7 +642,7 @@ TBC
             { time: "15:15–16:15", type: "Keynote",      speaker: "sciamarella" },
             { time: "16:15–16:30", break: "Tea break" },
             { time: "16:30–17:30", type: "Keynote",      speaker: "jfreitas" },
-            { time: "19:00–21:00", social: "Workshop Dinner" }
+            // { time: "19:00–21:00", social: "Workshop Dinner" }
           ]
         },
         {
@@ -681,8 +681,8 @@ TBC
             { time: "09:30–10:30", type: "Keynote",      speaker: "maulik" },
             { time: "10:30–11:00", break: "Tea break" },
             { time: "11:00–12:00", type: "Keynote",             speaker: "faranda" },
-            { time: "12:00–14:00", break: "Lunch break" },
-            { time: "14:00",       break: "Early finish" }
+            // { time: "12:00–14:00", break: "Lunch break" },
+            { time: "12:00",       break: "Early finish" }
           ]
         }
       ]
