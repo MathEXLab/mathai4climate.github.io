@@ -214,10 +214,10 @@ TBC
 
     fan: {
       name: "Jingfang Fan",
-      affiliation: "",
-      title: "TBC",
+      affiliation: "Beijing Normal University, China",
+      title: "Complexity science and AI Methods for Earth System Tipping Points",
       abstract: `
-TBC
+Critical phenomena are common in nature and society, from phase transitions and extreme weather to sea-ice loss, ecosystem degradation, and financial fluctuations. When complex systems approach a critical threshold, they often show early-warning signals such as critical slowing down, stronger fluctuations, expanding correlations, and reduced resilience. The Earth system is a coupled complex system involving the atmosphere, ocean, land, biosphere, and cryosphere. Local disturbances may be amplified and trigger cascading changes across regions and components. This talk will introduce key ideas from statistical physics, nonlinear dynamics, complex systems science, and artificial intelligence, including phase transitions, percolation, self-organized criticality, critical slowing down, complex networks, and data-driven prediction. Typical examples such as extreme weather and climate tipping points will be used to show how these methods help reveal mechanisms, improve early warning, and support climate-risk management.
 `
     },
 
