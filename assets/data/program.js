@@ -477,10 +477,18 @@ TBC
 
     chan: {
       name: "Ronald Chan",
-      affiliation: "",
-      title: "TBC",
+      affiliation: "A*STAR Institute of Advanced Intelligence and Computing (A*STAR IAIC), Singapore",
+      title: "Downscaling Regional Forecasts to Operational Decisions: Weather Impact Analysis for Infrastructure Resilience",
       abstract: `
-TBC
+Weather is a critical driver of risk and operational performance across infrastructure sectors, including aviation route planning, maritime port operations, the safe deployment of emerging alternative fuels, and urban flood resilience. In this talk, I will share how we combine numerical weather prediction, machine learning, and physics-informed models to transform weather data into actionable decision-support tools for both strategic planning and real-time operations. Through a series of case studies, I will highlight the opportunities and challenges of developing weather-informed decision-support systems that operate under uncertainty.
+
+ 
+
+In aviation, we enhance guidance on convective weather hazards by integrating numerical weather forecasts with radar and satellite observations, improving hazard prediction and supporting operational decision-making. In maritime port operations, we have developed AI-enhanced systems to assess the risk of extreme winds in Singapore’s port areas, translating weather forecasts into container safety metrics and operational risk assessments. We are also developing rapid meteorology-enabled capabilities for real-time assessment of toxic plume dispersion risks associated with emerging alternative fuels. These capabilities leverage observations from automatic weather stations to downscale regional weather model outputs, enabling better representation of urban-scale weather variability and localised impacts. In addition, we are exploring the use of CCTV imagery to detect rain streaks and infer local rainfall conditions.
+
+ 
+
+Together, these case studies demonstrate how advances in mathematics, meteorology, and AI can enhance the value of weather forecasts by translating meteorological information into operationally relevant insights, helping to build more resilient and weather-informed infrastructure systems across a range of critical sectors.
 `
     },
 
