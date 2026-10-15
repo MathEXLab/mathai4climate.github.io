@@ -253,11 +253,11 @@ data-driven weather and climate models can be significantly optimized through ta
 training strategies. The S2S variability of the global atmosphere has been extensively 
 characterized over recent decades. A prevailing paradigm decomposes this variability into two 
 normal-mode components—quasi- or discrete modes and continuous spectra—interpreted as 
-perturbations to a time-mean zonal flow (Brunet 1994; Zadra et al. 2002a,b). Discrete modes 
-represent transient phenomena such as storms and teleconnections, while the continuous 
-spectrum acts as an atmospheric “skeleton” that modulates large-scale circulation. Under this 
-framework, the discrete spectrum encompasses familiar S2S variability patterns such as the 
-Arctic Oscillation and the Madden–Julian Oscillation.
+perturbations to a time-mean zonal flow (Brunet 1994; Zadra et al. 2002a,b). Continuous
+spectrum modes represent transient phenomena such as storms and teleconnections, while 
+the discrete spectrum acts as an atmospheric “skeleton” that modulates large-scale 
+circulation. Under this framework, the discrete spectrum encompasses familiar S2S variability 
+patterns such as the Arctic Oscillation and the Madden–Julian Oscillation.
 We demonstrate that this atmospheric decomposition, known as empirical normal modes 
 (ENMs), forms a complete and unique Hamiltonian canonical basis. This canonical property 
 enables substantial dimensionality reduction of the atmospheric evolution operator, offering a 
@@ -272,8 +272,7 @@ of meridional displacement. Applied to 40 winters of ERA-5 data, this framework 
 trends in the restoring-force parameter γ₀ and links its variability to atmosphere angular 
 momentum (AAM), ENSO, the Arctic Oscillation, and the Pacific–North American pattern. A 
 weakened background PV gradient at high latitudes explains increased trend in meridional 
-air-mass excursions and recent temperature extremes (Brunet, Lin and Davies, 2026)
-`
+air-mass excursions and recent temperature extremes (Brunet, Lin and Davies, 2026).
     },
 
     gaybalmaz: {
