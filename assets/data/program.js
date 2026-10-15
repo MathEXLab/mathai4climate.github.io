@@ -273,6 +273,7 @@ trends in the restoring-force parameter γ₀ and links its variability to atmos
 momentum (AAM), ENSO, the Arctic Oscillation, and the Pacific–North American pattern. A 
 weakened background PV gradient at high latitudes explains increased trend in meridional 
 air-mass excursions and recent temperature extremes (Brunet, Lin and Davies, 2026).
+`
     },
 
     gaybalmaz: {
@@ -280,7 +281,7 @@ air-mass excursions and recent temperature extremes (Brunet, Lin and Davies, 202
       affiliation: "Nanyang Technological University, Singapore",
       title: "Thermodynamically Consistent Modeling of Geophysical Fluids: A Variational Perspective",
       abstract: `
-We present a Lagrangian variational framework for the modeling of single- and multicomponent geophysical fluids, encompassing both reversible (entropy-conserving) and irreversible (entropy-generating) processes. The framework naturally incorporates moisture and extends to semi-compressible fluid models relevant to atmospheric and oceanic dynamics. By construction, the resulting equations satisfy the first and second laws of thermodynamics, providing a systematic route to thermodynamically consistent models. We also discuss recent developments in using this variational structure to construct thermodynamically consistent numerical discretizations for geophysical fluid systems.
+      We present a Lagrangian variational framework for the modeling of single- and multicomponent geophysical fluids, encompassing both reversible (entropy-conserving) and irreversible (entropy-generating) processes. The framework naturally incorporates moisture and extends to semi-compressible fluid models relevant to atmospheric and oceanic dynamics. By construction, the resulting equations satisfy the first and second laws of thermodynamics, providing a systematic route to thermodynamically consistent models. We also discuss recent developments in using this variational structure to construct thermodynamically consistent numerical discretizations for geophysical fluid systems.
 `
     },
 
