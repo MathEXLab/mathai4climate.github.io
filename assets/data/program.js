@@ -371,10 +371,32 @@ In the second part of the talk I describe how to apply the operator-based method
 
     sciamarella: {
       name: "Denise Sciamarella",
-      affiliation: "",
-      title: "TBC",
+      affiliation: "Centre National de la Recherche Scientifique (CNRS), Paris, France",
+      title: "Climate dynamics:from AI to topology and back",
       abstract: `
-TBC
+AI models now reproduce many statistical properties of weather and climate. Whether they correctly capture the mechanisms that generate those statistics remains an open question. Two datasets can agree in their means, variances and spectra while organizing their trajectories in phase space in different ways. This talk shows that directed algebraic topology, through the templex formalism, offers a language to pose this question, to intercompare models and data, and to assess whether a model can be understood in terms of the main nonlinear mechanisms underlying a given dynamics.
+
+
+The talk examines from this perspective the AI Model Intercomparison Project (AIMIP), which brings together AI weather and climate models under a common protocol: in its first phase, AI models trained on reanalysis simulate the atmosphere over 1979–2024 under observed sea surface temperatures and sea ice. We focus on processes related to tropical phenomena that classical models have historically failed to predict or simulate accurately.
+
+
+But the story does not end here: there is also the way back. Machine learning can help construct the topological objects that yield directed invariants from time-varying experimental, numerical or observational data. The templex and its stochastic counterpart, the random templex, provide a non-metric notion of chaos in finite time. These objects allow decomposing a dynamics into fundamental units held together by topological bonds, as well as defining topological modes of variability as metric manifestations of those units. Where topological tools struggle, AI can help, in a way reminiscent of Hasselmann’s view of fast weather acting on slow climate. The goal of this two-way trip is clear: building a solid bridge between machine learning and human understanding of time and structure.
+
+
+References
+1. Brunton, S. L., Noack, B. R., & Koumoutsakos, P. (2020). Machine learning for fluid mechanics. Annual review of fluid mechanics, 52(1), 477-508, https://doi.org/10.1146/annurev-fluid-010719-060214.
+
+2. Charó, G. D., Letellier, C., & Sciamarella, D. (2022). Templex: A bridge between homologies and templates for chaotic attractors. Chaos: An Interdisciplinary Journal of Nonlinear Science, 32(8), https://doi.org/10.1063/5.0092933.
+
+3. Ghil, M., & Sciamarella, D. (2023). Dynamical systems, algebraic topology and the climate sciences. Nonlinear Processes in Geophysics, 30(4), 399-434, doi: https://doi.org/10.5194/npg-30-399-2023.
+
+4. Charó, G. D., Ghil, M., & Sciamarella, D. (2023). Random templex encodes topological tipping points in noise-driven chaotic dynamics. Chaos: An Interdisciplinary Journal of Nonlinear Science, 33(10), doi: https://doi.org/10.1063/5.0140660.
+
+5. Sciamarella, D., & Charó, G. D. (2024). New elements for a theory of chaos topology. In Topological Methods for Delay and Ordinary Differential Equations: With Applications to Continuum Mechanics (pp. 191-211). Cham: Springer International Publishing, doi: https://doi.org/10.1007/9.
+
+6. Henn, B., Bretherton, C. S., Koldunov, N., Lessig, C., Molina, M. J., Arcomano, T., ... & Lopez-Gomez, I. (2026). AIMIP Phase 1: systematic evaluations of AI weather and climate models. arXiv preprint, doi: https://doi.org/10.48550/arXiv.2605.06944.
+
+7. Sciamarella, D. (2026). Functorial invariants for chaos topology from data. Physical Review E, 114(2), 024205., https://doi.org/10.1103/zx76-5115.
 `
     },
 
