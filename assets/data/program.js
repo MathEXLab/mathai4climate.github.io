@@ -301,10 +301,10 @@ See more details on the website: https://scaling-group.github.io/
 
     li: {
       name: "Qianxiao Li",
-      affiliation: "",
-      title: "TBC",
+      affiliation: "National University of Singapore, Singapore",
+      title: "Learning macroscopic and mesoscopic dynamics",
       abstract: `
-TBC
+We discuss some recent work on constructing stable and interpretable macroscopic and mesoscopic dynamics from trajectory data using deep learning. We adopt a hypothesis-driven approach: contrary to using generic neural networks as functional approximators for the vector fields driving a dynamical system or operator based learning approaches, we start with a structured hypothesis class in which well-posedness and numerical stability are a priori ensured. Learning on trajectory data then identifies a specific member of this family suitable for capturing the observed dynamical process, from which scientific predictions and analysis can be made. We demonstrate this approach on a variety of scientific problems, including the dynamics of polymers, magnetic systems and diffusion/mixing problems.
 `
     },
 
@@ -619,8 +619,8 @@ TBC
             { time: "10:30–11:00", break: "Tea break" },
             { time: "11:00–11:30", type: "Short talk",   speaker: "dong" },
             { time: "11:30–12:00", type: "Short talk",   speaker: "andrews" },
-            //{ time: "12:00–14:00", break: "Lunch break" },
-            { time: "12:00–14:00", social: "Catered Buffet Lunch" },
+            { time: "12:00–14:00", break: "Lunch break" },
+            //{ time: "12:00–14:00", social: "Catered Buffet Lunch" },
             { time: "14:00–15:00", type: "Keynote",      speaker: "fan" },
             { time: "15:00–15:15", break: "Tea break" },
             { time: "15:15–16:15", type: "Keynote",      speaker: "vaienti" },
@@ -687,8 +687,8 @@ TBC
             { time: "09:30–10:30", type: "Keynote",      speaker: "yiou" },
             { time: "10:30–11:00", break: "Tea break" },
             { time: "11:00–12:00", type: "Invited talk", speaker: "zhou" },
-            //{ time: "12:00–14:00", break: "Lunch break" },
-            { time: "12:00–14:00", social: "Catered Buffet Lunch" },
+            { time: "12:00–14:00", break: "Lunch break" },
+            //{ time: "12:00–14:00", social: "Catered Buffet Lunch" },
             { time: "14:00–15:00", type: "Keynote",      speaker: "carrassi" },
             { time: "15:00–15:15", break: "Tea break" },
             { time: "15:15–16:15", type: "Keynote",      speaker: "amfreitas" },
