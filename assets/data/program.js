@@ -491,9 +491,11 @@ forecasts with observations, and embedding generative AI within classical DA met
     messori: {
       name: "Gabriele Messori",
       affiliation: "Uppsala University, Sweden",
-      title: "TBC",
+      title: "Data-driven meteorological forecasts of extremes in a changing climate",
       abstract: `
-TBC
+Weather forecasts are often evaluated on average meteorological skill. However, what is most valuable to society are skillful forecasts of extreme events. Such events are by definition rare, and our rapidly changing climate also makes unprecedented events more likely than they would otherwise be. Both these aspects make the data-driven forecasting of extreme events challenging. Moreover meteorological skill, even when restricted to extreme events, is not necessarily a good indicator of the value of a forecast for any given user. In this presentation, I discuss the evaluation of data-driven weather forecasts for extremes, the challenge posed by unprecedented events and ways to go beyond meteorological skill when evaluating whether data-driven forecasts bring added user value beyond numerical weather forecasts.
+
+
 `
     },
 
