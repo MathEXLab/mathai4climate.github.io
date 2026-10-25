@@ -178,10 +178,14 @@ TBC
 
     ortega: {
       name: "Juan-Pablo Ortega",
-      affiliation: "",
-      title: "TBC",
+      affiliation: "Nanyang Technological University, Singapore",
+      title: "From Trajectories to Climate. Learning and Forecasting with Reservoir Computing",
       abstract: `
-TBC
+Reservoir computing provides a state-space approach to learning dynamical processes from observations. This talk reviews the echo state property, fading memory, and universality, and explains how generalized synchronization and embedding results connect reservoir representations with the underlying dynamics.
+
+We then consider autonomous forecasting, distinguishing individual trajectory prediction from the evolution of distributions and long-term statistics. Recent results relate finite-horizon trajectory errors to approximation accuracy and the instability of the learned dynamics, and identify conditions for accurate forecasts of a system’s statistical climate. Numerical examples illustrate how trajectories can separate while their distributions remain close. The talk emphasizes the main mathematical ideas and their relevance to weather and climate modeling.
+
+This talk is based on joint work with Lukas Gonon, Lyudmila Grigoryeva, Allen Hart, James Louw, and Florian Rossmannek.
 `
     },
 
@@ -609,7 +613,7 @@ TBC
             { time: "12:10–14:00", break: "Lunch break" },
             { time: "14:00–15:00", type: "Keynote",      speaker: "galfi" },
             { time: "15:00–15:15", break: "Tea break" },
-            { time: "15:15–16:15", type: "Invited talk",      speaker: "ortega" },
+            { time: "15:15–16:15", type: "Keynote",      speaker: "vaienti" },
             // { time: "16:15–16:30", break: "Tea break" },
             // { time: "16:30–17:30", type: "",      speaker: null }
           ]
@@ -625,7 +629,7 @@ TBC
             //{ time: "12:00–14:00", social: "Catered Buffet Lunch" },
             { time: "14:00–15:00", type: "Keynote",      speaker: "fan" },
             { time: "15:00–15:15", break: "Tea break" },
-            { time: "15:15–16:15", type: "Keynote",      speaker: "vaienti" },
+            { time: "15:15–16:15", type: "Invited talk",      speaker: "ortega" },
             // { time: "16:15–16:30", break: "Tea break" },
             // { time: "16:30–17:30", type: "",             speaker: null }
           ]
