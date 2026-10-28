@@ -191,10 +191,22 @@ This talk is based on joint work with Lukas Gonon, Lyudmila Grigoryeva, Allen Ha
 
     barker: {
       name: "Dale Barker",
-      affiliation: "Centre for Climate Research Singapore",
-      title: "TBC",
+      affiliation: "Director, Centre for Climate Research Singapore - CCRS",
+      title: "Preparations for Next-Generational AI- and Physical Model-Based Regional Weather Prediction and Climate Projections at CCRS",
       abstract: `
-TBC
+Singapore is a small-island state situated in the deep tropics, approximately one degree north of the equator and 104 degrees longitude. Singapore’s weather is characterized by generally warm, humid conditions with extreme weather hazards on hourly to daily timescales dominated by heavy rainfall events from localized convection, high heat stress, and transboundary haze.
+
+ 
+
+The Centre for Climate Research Singapore (CCRS) is the research division of Singapore’s National Meteorological Service - the Meteorological Service Singapore (MSS). Research at Singapore spans a wide range of timescales, from the past 50 years (regional reanalysis), through the next few hours (nowcasting), next 1-2 days (short-range local weather prediction), subseasonal to seasonal prediction, out to regional climate change projections out to to 2100 and beyond.
+
+ 
+
+CCRS has traditional employed the ‘Unified Model’ (UM)-based ‘SINGV’ system, initially for local km-scale NWP, but more recently for dynamically downscaled ‘V3’ regional climate change projections and digital twin scenarios of Singapore’s future urban landscape. Since 2024, CCRS has been actively engaged with national and international partners to replace the physical UM-based SINGV system with next-generation ‘SINGV_NG’ modelling capabilities combining both physical and AI-based modelling systems. CCRS is investigating the use of local fine-scale data (e.g. observations, SINGV NWP, V3 projection data) to fine-tune global AI models for both AI-based local NWP and climate downscaling. In addition, a range of off-the-shelf AI-based global models (AIFS, Graphcast, ForecastNet, Aurora, etc.) are being evaluated within CCRS’s regional ‘WeatherBench’.
+
+ 
+
+This talk with provide an update on the latest CCRS’s efforts to develop and apply next generation physical and AI-based approaches suitable for local weather and climate science applications in the deep-tropics.
 `
     },
 
