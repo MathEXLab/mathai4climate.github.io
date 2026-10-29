@@ -63,10 +63,23 @@
     var cls = 'session-row is-talk' + (/keynote/i.test(session.type || '') ? ' is-keynote' : '');
     var html = '<li class="' + cls + '"><span class="session-time">' + esc(session.time) + '</span>' +
                '<span class="session-title">';
-    if (type) html += '<span class="session-type">' + esc(type) + '</span> ';
+    if (session.wording && sp) {
+      // Custom wording, e.g. "Fireside chat with <name>, <affiliation>"
+      html += '<span class="session-wording">' + esc(session.wording) + '</span> ';
+    } else if (type) {
+      html += '<span class="session-type">' + esc(type) + '</span> ';
+    }
     if (sp) {
-      html += '<a class="session-speaker" href="' + DETAIL_PAGE + '#talk-' + esc(session.speaker) + '"' +
-              ' data-talk-title="' + esc(talkTitle(sp)) + '">' + esc(sp.name) + '</a>';
+      if (session.noTalk) {
+        // No title/abstract for this session: plain name, no pop-up or link
+        html += '<span class="session-speaker-plain">' + esc(sp.name) + '</span>';
+      } else {
+        html += '<a class="session-speaker" href="' + DETAIL_PAGE + '#talk-' + esc(session.speaker) + '"' +
+                ' data-talk-title="' + esc(talkTitle(sp)) + '">' + esc(sp.name) + '</a>';
+      }
+      if (session.wording && sp.affiliation) {
+        html += '<span class="session-affiliation">, ' + esc(sp.affiliation) + '</span>';
+      }
     } else {
       html += '<span class="session-tbc">TBC</span>';
     }
@@ -159,13 +172,15 @@
     var type = typeLabel(session);
     var id = sp ? ' id="talk-' + esc(session.speaker) + '"' : '';
     var html = '<div class="talk-item is-talk"' + id + '>' + time + '<div class="talk-body">';
-    if (type) html += '<span class="schedule-tag">' + esc(type) + '</span>';
+    if (type && !(session.wording && sp)) html += '<span class="schedule-tag">' + esc(type) + '</span>';
     if (sp) {
-      html += '<span class="talk-speaker">' + esc(sp.name) + '</span>';
+      html += '<span class="talk-speaker">' + (session.wording ? esc(session.wording) + ' ' : '') + esc(sp.name) + '</span>';
       if (sp.affiliation) html += '<span class="talk-affiliation">' + esc(sp.affiliation) + '</span>';
-      var t = talkTitle(sp);
-      html += '<h5 class="talk-title' + (t === 'Title TBC' ? ' is-tbc' : '') + '">' + esc(t) + '</h5>';
-      html += '<div class="talk-abstract">' + paragraphs(sp.abstract) + '</div>';
+      if (!session.noTalk) {
+        var t = talkTitle(sp);
+        html += '<h5 class="talk-title' + (t === 'Title TBC' ? ' is-tbc' : '') + '">' + esc(t) + '</h5>';
+        html += '<div class="talk-abstract">' + paragraphs(sp.abstract) + '</div>';
+      }
     } else {
       html += '<span class="talk-speaker is-tbc">Speaker TBC</span>';
     }

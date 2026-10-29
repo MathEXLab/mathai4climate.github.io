@@ -1486,3 +1486,80 @@ section[id] {
     margin-bottom: 6px;
     overflow-wrap: anywhere;
 }
+
+/* -----------------------------------------------------
+   Venue
+------------------------------------------------------ */
+.venue-address {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    padding: 22px 24px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 28px;
+}
+
+.venue-address > i {
+    font-size: 22px;
+    color: var(--accent);
+    margin-top: 3px;
+}
+
+.venue-address p {
+    margin: 0;
+    color: var(--ink-soft);
+    line-height: 1.6;
+}
+
+.venue-address .venue-name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--ink);
+    margin-bottom: 2px;
+}
+
+.venue-details {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.venue-detail dt {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--ink);
+    margin-bottom: 4px;
+}
+
+.venue-detail dt i {
+    width: 20px;
+    margin-right: 8px;
+    color: var(--accent);
+    text-align: center;
+}
+
+.venue-detail dd {
+    margin: 0 0 0 28px;
+    color: var(--ink-soft);
+    line-height: 1.6;
+}
+
+.venue-sep {
+    margin: 0 8px;
+    color: var(--border-strong);
+}
+
+.session-wording,
+.session-affiliation {
+    font-weight: 500;
+}
+
+.session-speaker-plain {
+    font-weight: 700;
+}

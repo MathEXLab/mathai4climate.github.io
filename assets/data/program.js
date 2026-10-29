@@ -41,6 +41,10 @@
        { time: "19:00–21:00", social: "Workshop Dinner" }
        { time: "11:00–12:00", label: "Opening ceremony" }           -> plain event
      Optional on a talk:  virtual: true   -> adds "(virtual)"
+                          wording: "Fireside chat with"
+                                          -> card reads "Fireside chat with <name>, <affiliation>"
+                          noTalk: true   -> no title/abstract: removes the hover pop-up
+                                            and link, and hides Title/Abstract TBC
      Optional on a day:   theme: "..."    -> small line under the date
                           holiday: "..."  -> green badge, e.g. public holiday
 
@@ -127,7 +131,7 @@ References
 
     see: {
       name: "Simon See",
-      affiliation: "Director, NVIDIA AI Technology Center",
+      affiliation: "Global Head for NVIDIA AI Technology Center, NVIDIA Corporation",
       title: "TBC",
       abstract: `
 TBC
@@ -558,10 +562,41 @@ Success must be measured in operational terms: useful warning time, calibrated u
 
     charo: {
       name: "Gisela D. Charó",
-      affiliation: "",
-      title: "TBC",
+      affiliation: "Centro de Investigaciones del Mar y la Atmósfera, Universidad de Buenos Aires, Argentina",
+      title: "Topological Autoencoders for Nonlinear Dynamics: A Templex-Based Approach",
       abstract: `
-TBC
+Characterizing strange attractors from data requires coordinate-free topological invariants, as standard
+metric descriptors—such as Lyapunov exponents or fractal dimensions—cannot fully capture the
+system dynamics and may assign similar values to topologically inequivalent attractors. While
+knot-and-link theory provides a topological fingerprint for three-dimensional flows, it fails in higher
+dimensions. Recently, Fainstein et al. (2025) demonstrated that autoencoders (AEs) trained with a
+flow-direction regularization loss—which forces the latent vector field to preserve orbit
+orientation—can reconstruct topologically equivalent attractors. However, validating these
+reconstructions via linking numbers remains strictly limited to 3D systems.
+To bridge this gap, we introduce a validation framework based on templex theory (Charó et al., 2022)
+to assess the preservation of attractor topology in AE reconstructions, including higher-dimensional
+spaces. Templex theory generalizes the knot-holder formalism to arbitrary dimensions by combining a
+cell complex of the underlying branched manifold with a flow-induced digraph, characterizing
+attractors through directed cycles organized around joining loci (JL) where distinct branches merge.
+Generatexes encode the equivalence classes of these directed cycles, defining directed topological
+invariants applicable in any dimension.
+Our method bypasses the explicit construction of a cell complex by using flow-aware clustering that
+accounts for both point positions and local flow directions. By varying the threshold on inter-cluster
+transition fractions, we build a filtration of directed graphs to identify persistent generatexes across a
+range of flow thresholds directly from data.
+We apply this framework to evaluate the AE reconstructions proposed by Fainstein et al. (2025) for
+the 3D Lorenz and Rössler systems, as well as a 4D seasonally forced Lorenz model (Vallis, 1986,
+1988) as a toy model for El Niño–Southern Oscillation (4D-ENSO). By comparing persistent
+generatexes extracted from original phase-space trajectories and their latent representations, we
+demonstrate that the AE successfully preserves the directed topological organization across all cases.
+These findings establish persistent generatexes as a robust, dimension-agnostic tool for validating
+AE-based attractor reconstructions beyond the constraints of classical 3D knot-and-link invariants.
+References
+1. Fainstein, F., Mindlin, G. B., & Groisman, P. (2025). Reconstructing attractors with
+autoencoders. Chaos: An Interdisciplinary Journal of Nonlinear Science, 35(1).
+2. Charó, G. D., Letellier, C., & Sciamarella, D. (2022). Templex: A bridge between
+homologies and templates for chaotic attractors. Chaos: An Interdisciplinary Journal
+of Nonlinear Science, 32(8), https://doi.org/10.1063/5.0092933
 `
     },
 
@@ -617,7 +652,7 @@ TBC
         {
           day: "Day 2", date: "Tue, Nov 3",
           sessions: [
-            { time: "09:30–10:30", type: "Keynote",      speaker: "see" },
+            { time: "09:30–10:30", type: "Fireside chat", speaker: "see", wording: "Fireside chat with", noTalk: true },
             { time: "10:30–10:40", social: "Group Photo" },
             { time: "10:40–11:10", break: "Tea break" },
             { time: "11:10–11:40", type: "Short talk",   speaker: "zanchi" },
