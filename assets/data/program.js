@@ -216,19 +216,22 @@ This talk with provide an update on the latest CCRS’s efforts to develop and a
 
     dong: {
       name: "Chenyu Dong",
-      affiliation: "",
-      title: "TBC",
-      abstract: `
-TBC
+      affiliation: "National University of Singapore, Singapore",
+      title: "S2S-JEPA: Predicting the Predictable at Subseasonal-to-Seasonal Timescales",
+      abstract: `Subseasonal-to-seasonal (S2S) prediction, from two weeks to two months ahead, remains the 'predictability desert' of weather and climate forecasting. Recent AI weather models excel up to two weeks ahead but deteriorate beyond, largely because they are trained to predict fine-scale details that are neither predictable nor essential at S2S timescales. We argue that a more physically grounded objective is to forecast only the slowly varying components that remain predictable. Computer vision reached the same conclusion with the Joint-Embedding Predictive Architecture (JEPA), which predicts in latent space, discarding unpredictable details. In this talk, I will present S2S-JEPA, which brings the JEPA paradigm to S2S forecasting, tailored to the task through design elements from state-of-the-art AI weather models. Evaluated against the ECMWF extended-range ensemble, S2S-JEPA achieves comparable skill at weeks 5 to 6 and surpasses it on multiple metrics, while remaining behind at shorter leads. I will close with what the ablations tell us about where the skill comes from, and what this implies for AI-based S2S prediction.
 `
     },
 
     andrews: {
       name: "Emma Andrews",
-      affiliation: "",
-      title: "TBC",
+      affiliation: "National University of Singapore, Singapore",
+      title: "ATEMPO (Amortized Transfer Entropy Model Per-lag Over-time)",
       abstract: `
-TBC
+Transfer entropy (TE) measures how much the past of one variable improves predictions of another. It is a natural tool for asking how parts of the climate system are coupled. In practice, TE is estimated one lag and one time window at a time, with one model fitted per configuration. That makes it expensive and noisy to ask the questions that matter in climate: which regions are coupled, at what delay, and whether the coupling depends on the state of the system.
+
+I’ll present ATEMPO (Amortized Transfer Entropy Model Per-lag Over-time), a diffusion-based estimator that learns a single model across source lag, conditioning depth and position in time. From one fit, ATEMPO gives the whole TE surface. Differencing that surface across lags gives a delay profile: how much information each lag adds that deeper lags don’t already provide. 
+
+I then apply ATEMPO to boxes spanning the Pacific Walker circulation, identifying which regions are coupled and at what delay, and comparing the recovered delays with established methods such as PCMCI. I also show how the coupling changes with the state of the system, and how the approach extends to spatiotemporal fields.
 `
     },
 
