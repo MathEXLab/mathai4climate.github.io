@@ -153,10 +153,12 @@ We evaluate the recurrence-based latent space against EOF and beta-variational a
 
     yang: {
       name: "Yuxuan Yang",
-      affiliation: "",
-      title: "TBC",
+      affiliation: "National University of Singapore, Singapore",
+      title: "Predictability hierarchies of extreme events revealed by AI model",
       abstract: `
-TBC
+Predicting extreme events in chaotic dynamical systems remains a fundamental challenge due to their sensitivity to initial conditions and the high computational cost of ensemble forecasting. Conventional approaches often characterize predictability through system-wide measures or individual case studies, leaving systematic differences among extreme events largely unexplored. In this talk, we present a data-driven framework for quantifying event-wise predictability horizons using AI-based ensemble forecasts. By evaluating probabilistic forecast skill against climatology, we determine the maximum lead time over which individual extreme events remain predictable.
+We first demonstrate this framework in two-dimensional turbulent Kolmogorov flow, where autoregressive diffusion models generate ensembles of possible future trajectories. Our results reveal a pronounced hierarchy of predictability horizons across extreme events. Further analysis identifies the importance of large-scale flow structures in sustaining predictability, while comparisons with numerical ensembles and different model architectures support the robustness of the observed hierarchy. We then extend the framework to European heatwaves using AI-based weather ensemble forecasting, revealing substantial variations in predictability both across individual events and geographical regions. Comparisons with numerical weather forecasts further assess the consistency of these patterns across forecasting systems.
+Together, these findings demonstrate that extreme events possess distinct predictability limits and establish AI-based ensemble forecasting as a promising tool for systematically investigating predictability hierarchies in complex dynamical systems.
 `
     },
 
