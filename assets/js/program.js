@@ -79,6 +79,13 @@
       }
       if (session.wording && sp.affiliation) {
         html += '<span class="session-affiliation">, ' + esc(sp.affiliation) + '</span>';
+      } else if (sp.affiliation) {
+        html += '<span class="session-affil-line" title="' + esc(sp.affiliation) + '">' + esc(sp.affiliation) + '</span>';
+      }
+      if (!session.noTalk) {
+        var t = talkTitle(sp);
+        html += '<a class="session-talk-title' + (t === 'Title TBC' ? ' is-tbc' : '') + '" href="' + DETAIL_PAGE +
+                '#talk-' + esc(session.speaker) + '">' + esc(t) + '</a>';
       }
     } else {
       html += '<span class="session-tbc">TBC</span>';
