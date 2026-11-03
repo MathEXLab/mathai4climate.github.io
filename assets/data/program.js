@@ -543,10 +543,17 @@ Together, these case studies demonstrate how advances in mathematics, meteorolog
 
     xiang: {
       name: "Xiang Shili",
-      affiliation: "",
-      title: "TBC",
+      affiliation: "Institute of Advanced Intelligence and Computing (IAIC), A*STAR, Singapore",
+      title: "AI for Actionable Convective Weather Nowcasting",
       abstract: `
-TBC
+Forecasting convective weather can provide valuable advance notice for flood preparedness, transport operations, infrastructure management and outdoor activities. AI is advancing short-term weather prediction, but operational value depends on more than forecast accuracy: predictions should capture hazardous developments, convey uncertainty and provide useful information despite gaps in observation coverage.
+This talk brings together four recent contributions from our group towards actionable convective weather nowcasting. First, SimCast uses short-to-long-term knowledge distillation to improve precipitation forecasts, particularly for heavy rainfall, without additional inference overhead. Second, deep evidential learning estimates forecast uncertainty in a single forward pass, while revealing limitations in representing rare, intense events. Third, GeoRad-3D separates storm motion and deformation from uncertain changes in radar echo intensity, enabling more skilful forecasts of evolving three-dimensional storm structures. Finally, SRDiff translates satellite observations into radar-like sequences that can feed existing nowcasting models, offering a pathway to extending forecasting capabilities beyond radar coverage.
+Drawing on benchmark evaluations and tropical weather examples, I will discuss how these advances could support more informed operational decisions and examine the remaining challenges in translating predictive skill into useful decision support solutions. 
+References
+Yin, Y., Chen, S., Li, Y., Wang, L., Jin, R., Cui, W., & Xiang, S. (2025). SimCast: Enhancing precipitation nowcasting with short-to-long term knowledge distillation. In 2025 IEEE International Conference on Multimedia and Expo (ICME) (pp. 1–6). IEEE. https://doi.org/10.1109/ICME59968.2025.11209905.
+Wang, L., Xu, C., Yin, Y., Yeo, C. X., Heng, P., & Xiang, S. (2025). Uncertainty analysis in deep evidential learning for radar-based weather nowcasting. In 2025 IEEE Radar Conference (RadarConf25) (pp. 1–6). IEEE. https://doi.org/10.1109/RadarConf2559087.2025.11205055.
+Li, Y., Zhou, Z., Chen, S., Zhang, J., Liang, J., Chui, K. W., Chen, C., Liu, F., Yin, Y., & Xiang, S. (2026). GeoRad-3D: Factorized geometry transport and residual radiometry for 3D radar nowcasting. Advances in Neural Information Processing Systems (NeurIPS 2026; accepted for publication). https://neurips.cc/virtual/2026/poster/152938.
+Qin, Y., Cao, J., Wang, T., Yin, Y., Li, L., Xiang, S., Zhang, Y., & Zimmermann, R. (2026). SRDiff: A cross-modal diffusion model for satellite-to-radar translation in precipitation nowcasting. IEEE Transactions on Geoscience and Remote Sensing, 64, Article 4106416. https://doi.org/10.1109/TGRS.2026.3686188.
 `
     },
 
