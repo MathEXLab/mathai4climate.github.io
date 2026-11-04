@@ -345,9 +345,9 @@ At the thermodynamic level, climate change is simple 19th Century physics. Predi
     mengaldo: {
       name: "Gianmarco Mengaldo",
       affiliation: "National University of Singapore, Singapore",
-      title: "TBC",
+      title: "From Physics to AI and back",
       abstract: `
-TBC
+ In this talk, we explore how we can use pre-existing knowledge (e.g., physics) to improve AI systems, and how we can possibly extract some knowledge from AI systems. On the first topic, we present a novel physics-enhanced deep learning hybrid method, namely CondensNet, for resolving cloud physics in climate models. On the second topic, we present some results on the use of explainable AI for climate applications. We conclude with an overall perspective bridging the two topics.
 `
     },
 
