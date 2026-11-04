@@ -552,7 +552,7 @@ Drawing on benchmark evaluations and tropical weather examples, I will discuss h
 References
 Yin, Y., Chen, S., Li, Y., Wang, L., Jin, R., Cui, W., & Xiang, S. (2025). SimCast: Enhancing precipitation nowcasting with short-to-long term knowledge distillation. In 2025 IEEE International Conference on Multimedia and Expo (ICME) (pp. 1–6). IEEE. https://doi.org/10.1109/ICME59968.2025.11209905.
 Wang, L., Xu, C., Yin, Y., Yeo, C. X., Heng, P., & Xiang, S. (2025). Uncertainty analysis in deep evidential learning for radar-based weather nowcasting. In 2025 IEEE Radar Conference (RadarConf25) (pp. 1–6). IEEE. https://doi.org/10.1109/RadarConf2559087.2025.11205055.
-Li, Y., Zhou, Z., Chen, S., Zhang, J., Liang, J., Chui, K. W., Chen, C., Liu, F., Yin, Y., & Xiang, S. (2026). GeoRad-3D: Factorized geometry transport and residual radiometry for 3D radar nowcasting. Advances in Neural Information Processing Systems (NeurIPS 2026; accepted for publication). https://neurips.cc/virtual/2026/poster/152938.
+Li, Y., Zhou, Z., Chen, S., Zhang, J., Liang, J., Chui, K. W., Chen, C., Liu, F., Yin, Y., & Xiang, S. (2026). GeoRad-3D: Factorized geometry transport and residual radiometry for 3D radar nowcasting. In the Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS 2026; accepted for publication). https://neurips.cc/virtual/2026/poster/152938.
 Qin, Y., Cao, J., Wang, T., Yin, Y., Li, L., Xiang, S., Zhang, Y., & Zimmermann, R. (2026). SRDiff: A cross-modal diffusion model for satellite-to-radar translation in precipitation nowcasting. IEEE Transactions on Geoscience and Remote Sensing, 64, Article 4106416. https://doi.org/10.1109/TGRS.2026.3686188.
 `
     },
