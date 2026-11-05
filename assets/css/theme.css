@@ -1596,3 +1596,40 @@ section[id] {
 .session-row .session-talk-title.is-tbc {
     color: var(--ink-soft);
 }
+
+/* How to attend: walk-in callout above the venue details */
+.attend-callout {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    padding: 22px 24px;
+    background: var(--signal-tint);
+    border: 1px solid transparent;
+    border-radius: var(--radius-lg);
+    margin-bottom: 36px;
+}
+
+.attend-callout > i {
+    font-size: 22px;
+    color: var(--signal);
+    margin-top: 3px;
+}
+
+.attend-callout p {
+    margin: 0;
+    color: var(--signal-text);
+    line-height: 1.6;
+}
+
+.attend-callout .attend-callout-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.venue-subheading {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 14px;
+}
