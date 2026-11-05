@@ -733,7 +733,7 @@ TBC
         {
           day: "Day 7", date: "Tue, Nov 10",
           sessions: [
-            { time: "09:30–10:30", type: "Keynote",      speaker: "gottwald" },
+            { time: "09:30–10:30", type: "Keynote",      speaker: "galfi" },
             { time: "10:30–10:40", social: "Group Photo" },
             { time: "10:40–11:10", break: "Tea break" },
             { time: "11:10–12:00", type: "Invited talk", speaker: "falasca" },
@@ -766,16 +766,14 @@ TBC
           theme: "Impact on Infrastructure",
           sessions: [
             { time: "09:30–10:30", type: "Keynote",      speaker: "messori" },
-            { time: "10:30–10:50", break: "Tea break" },
-            { time: "10:50–11:40", type: "Invited talk", speaker: "chan" },
-            { time: "11:40–12:10", type: "Short talk",   speaker: "charo" },
-            { time: "12:10–14:00", break: "Lunch break" },
-            { time: "14:00–14:50", type: "Invited talk", speaker: "xiang" },
-            { time: "14:50–15:10", break: "Tea break" },
-            { time: "15:10–16:00", type: "Invited talk", speaker: "tan" },
-            { time: "16:00–16:15", break: "Tea break" },
-            //{ time: "14:00–15:00", type: "Keynote",      speaker: "galfi" },
-            { time: "16:15–17:15", type: "Keynote",   speaker: "galfi" }
+            { time: "10:30–11:00", break: "Tea break" },
+            { time: "11:00–12:00", type: "Invited talk", speaker: "chan" },
+            { time: "12:00–14:00", break: "Lunch break" },
+            { time: "14:00–15:00", type: "Invited talk", speaker: "xiang" },
+            { time: "15:00–15:15", break: "Tea break" },
+            { time: "15:15–16:15", type: "Invited talk", speaker: "tan" },
+            { time: "16:15–16:30", break: "Tea break" },
+            { time: "16:30–17:00", type: "Short talk",   speaker: "charo" }
           ]
         },
         {
